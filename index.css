@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#maincontainer{
+height: 1600px;
+width: 100%;
+font-family: sans-serif;
+}
+
+#container1{
+height:100px ;
+width: 100%;
+display: flex;
+background:linear-gradient(tomato,white);
+justify-content: space-around;
+align-items: center;
+position: sticky;
+}
+
+ul>li{
+display: inline-block;
+padding: 20px;
+list-style-type: none;
+text-decoration: none;
+
+}
+
+
+ul>li>i{
+float: left;
+margin:  0 5px 0 0;
+}
+ul>li>a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+ul>li:hover{
+background-color: tomato;
+transition: 0.5s;
+color: white;
+cursor: pointer;
+border-radius: 10px;
+}
+
+#butt>input{
+padding: 5px;
+outline: none;
+border: 1px solid tomato;
+}
+
+#butt>input:hover{
+height: 40px;
+transition: 0.5s;
+border: black 2px solid;
+outline: none;
+}
+
+#butt>input::placeholder{
+text-align: center;
+font-weight: bold;
+
+}
+#butt>button{
+padding: 5px;
+}
+
+#content > button:hover{
+background: red;
+transition:0.5s ;
+cursor: pointer;
+}
+
+
+#butt>button:hover{
+height: 30px;
+transition: 0.5s;
+border: black 2px solid;
+outline: none;
+cursor: pointer;
+}
+
+#logo>span{
+color: red;
+font-weight:bold;
+font-size: large;
+}
+
+
+#container2{
+height: 500px;
+width: 100%;
+}
+
+#container2{
+display: flex;
+align-items: center;
+
+}
+
+#content{
+margin: 0 0 0 170px;
+}
+
+#content>p{
+line-height: 25px;
+font-family: none;
+
+}
+#content>h1>span{
+color: red;
+}
+
+#content>button{
+padding: 8px;
+background: tomato;
+color: #fff;
+outline: none;
+border: none;
+
+}
+
+#content>i{
+margin: 8px;
+}
+
+#container3{
+height: 600px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background: tomato;
+font-family: sans-serif;
+}
+
+
+#formm{
+height: 500px;
+width: 70%;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border-radius: 8px; 
+filter: grayscale(30%);
+
+}
+
+#container3 > #formm >h2{
+margin-bottom: 30px;
+} 
+
+#container3 > #formm >h2 >span{
+color: red;
+}
+
+#reg{
+padding: 8px;
+margin: 2px 0 2px 70px;
+width: 40%;
+background:green;
+color:white;
+cursor: pointer;
+outline: none;
+border: none;
+border-radius: 5px;
+}
+
+#reg:hover{
+background: lightgreen;
+transition: 0.5s;
+color: black;
+}
+
+#formm{
+background: url(blood\ donation.png) no-repeat ;
+background-size: cover;
+backdrop-filter:blur(10px);
+
+}
+
+label{
+font-weight: bold;
+}
+
+input{
+padding: 8px;
+margin: 5px;
+outline: none;
+border: 2px solid black;
+}
+
+#container4{
+height: 400px;
+width: 100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+font-family: sans-serif;
+
+}
+
+#container4 > p ,h3 ,h1{
+margin-top: 40px;
+font-weight: bold;
+}
+
+#container4 > h1{
+color: red;
+font-weight: bold; 
+}
+
+#s1{
+color: darkorange;
+font-weight: bold;
+}
+
+#s2{
+color: grey;
+font-weight: bold;
+}
+
+#s3{
+color: green;
+font-weight: bold;
+}
+
+#container4{
+background: url(cells.jpg)  no-repeat;
+background-size: cover;
+}
